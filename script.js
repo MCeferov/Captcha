@@ -42,7 +42,7 @@ console.log("correct");
     this.classList.remove("ring-green-600")
 
   }
-  if (givenValue !== captcha && givenValue.length === 1,2,3,4,5,6) {
+  if (givenValue !== captcha && givenValue.length === 6) {
 this.classList.add("ring-red-600")
 console.log("error");
   } else {
